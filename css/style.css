@@ -1,0 +1,11 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.country-info {
+    border: 3px solid rgb(102, 96, 96);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
